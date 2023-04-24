@@ -7,8 +7,8 @@ void Main() {  }
 void Render()
 {
     UI::Begin("Play Campaign Map");
-    int tmp1 = UI::InputInt("Flag", f);
-    int tmp2 = UI::InputInt("Map", m);
+    tmp1 = UI::InputInt("Flag", f);
+    tmp2 = UI::InputInt("Map", m);
     f = tmp1;
     m = tmp2;
     if (UI::Button("Play"))
